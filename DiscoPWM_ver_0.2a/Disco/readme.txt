@@ -1,4 +1,4 @@
-Disco PWM ver. 0.1a
+Disco PWM ver. 0.2a
 By Duke Nukem, May 2020
 
 Disco files
