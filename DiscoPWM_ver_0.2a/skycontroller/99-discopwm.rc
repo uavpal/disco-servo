@@ -1,0 +1,3 @@
+service DiscoPWM /data/lib/ftp/uavpal/bin/disco_pwm.sh
+	class main
+	user root

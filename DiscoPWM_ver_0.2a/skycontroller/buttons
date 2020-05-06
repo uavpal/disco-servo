@@ -1,0 +1,83 @@
+#### DISCO PWM (Ver. 0.1a)
+#
+#	    CONFIGURATION FILE
+#
+#	 -= PWM reference table =-
+#	+-------------------------+
+#	|  Servo rail   |   PWM	  |
+#	|-------------------------|
+#	|    Rail 2  	|  pwm_5  |
+#	|    Rail 3	|  pwm_6  |
+#	|    Rail 4	|  pwm_1  |
+#	|    Rail 5	|  pwm_2  |
+#	+-------------------------+
+#
+#
+#		    SERVO RAIL CONFIGURATION
+#	+-----------------------------------------------+
+#	|Edit the settings below to map Skycontroller 2 | 
+#	|buttons to any unused C.H.U.C.K servo rail, and|
+#	|otionally to remotely execute shell commands.  |
+#	|There are 4 available servo rails which can be	| 
+#	|mapped to any of the buttons below. Use the 	|
+#	|table to get the PWM value for the servo rail.	|
+#	|The available rails are 2, 3, 4, and 5. The	|
+#	|rail numbers DON'T correspond with pwm numbers.| 
+#	|Each servo entry must have a zero value as well|
+#	|as an actuated value. When the button is pushed|
+#	|the actuated value is applied, when the button |
+#	|is released the zero value is applied. Each 	|
+#	|servo can be mapped to multiple buttons.	|
+#	|Use the example below for syntax.		|
+#	|*Note: These mappings do not change existing	|
+#	|mappings set by default & within the FFPro app.|
+#	|FFPro mappings will continue to function 	|
+#	|normally. 					| 
+#	+-----------------------------------------------+
+#
+####  -=EXAMPLE:=-  "A" button mapped to servo rail 2 (pwm_5)
+####  "A" Button map - Example do not modify
+# 292pwm=pwm_5 		<- leave blank if servo rail not required
+# 292zero=1500000  	<- pwm zero value
+# 292act=2000000	<- pwm actuated value
+# 292code=echo "hello" 	<- execute shell command on disco
+
+# USER CONFIG BELOW THIS LINE
+#----------------------------+
+
+### "B" Button map
+b291pwm=
+b291zero=
+b291act=
+b291code=
+
+### "A" button map
+b292pwm=
+b292zero=
+b292act=
+b292code=
+
+### Right trigger map
+b293pwm=
+b293zero=
+b293act=
+b292code=
+
+### Left trigger map
+b294pwm=
+b294zero=
+b294act=
+b294code=
+
+### Exposure wheel (left, CCW) map
+b298pwm=
+b298zero=
+b298act=
+b298code=
+
+### Exposure wheel (right, CW) map
+b299pwm=
+b299zero=
+b299act=
+b299code=   
+

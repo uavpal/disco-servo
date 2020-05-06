@@ -1,0 +1,3 @@
+service activateservos /data/ftp/uavpal/bin/activateservos.sh
+	class main
+	user root
