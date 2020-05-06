@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# DiscoPWM ver. 0.1a
+# DiscoPWM ver. 0.2a
 # By Duke Nukem, May 2020
 
 # variables
