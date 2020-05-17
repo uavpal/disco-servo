@@ -7,8 +7,6 @@
 
 cd /sys/class/pwm
 
-echo 1 > pwm_3/run
-
 for pwm in 1 2 5 6; do
 	echo $pwm > export
 	echo 10000000 > pwm_$pwm/period_ns
